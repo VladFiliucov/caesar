@@ -5,7 +5,7 @@ defmodule Caesar.Mixfile do
     [app: :caesar,
      escript: escript_config,
      version: "0.0.1",
-     source_url: "https://github.com/VladFiliucov/caeser"
+     source_url: "https://github.com/VladFiliucov/caeser",
      elixir: "~> 1.2",
      build_embedded: Mix.env == :prod,
      start_permanent: Mix.env == :prod,
